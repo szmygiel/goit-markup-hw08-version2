@@ -1,0 +1,70 @@
+/* MOTIVES - big icons  */
+
+.motives {
+max-width: 1200px;
+display: flex;
+justify-content: center;  
+margin: 0 auto;
+padding: 60px 15px;
+
+
+&__figure {
+  display: flex;
+  height: 120px;
+  width: 450px;
+  background-color: #F5F4FA;
+  box-shadow: none;
+  margin: 0px;
+  margin-right: 0px;
+  margin-left: 0pc;
+  margin-bottom: 30px;
+
+  padding: 0px;
+  border-radius: 4px;
+  align-items: center;
+  justify-content: center;  
+  
+   @media screen and (min-width: 768px) {
+      padding: 25px 142px;
+      height: 120px;
+      width: 354px;
+    }
+    @media screen and (min-width: 1200px) {
+      padding: 25px 80px;
+      height: 120px;
+      width: 270px;
+    }
+}
+ &__lorem-title {
+color: var(--main-font-color); 
+font-weight: 700; 
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.03em;
+}
+
+&__lorem-paragraph-container {
+  height: 50px;
+  width: 450px;
+  margin-right: 30px;
+
+  @media screen and (min-width: 768px) {
+      height: 65px;
+      width: 354px;
+    }
+    @media screen and (min-width: 1200px) {
+      height: 75px;
+      width: 270px;
+    }
+}
+
+&__lorem-paragraph {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  text-align: left;
+  color: var(--secondary-font-color);
+} 
+}
+

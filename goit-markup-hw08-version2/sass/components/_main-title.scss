@@ -1,0 +1,124 @@
+/* ________ H1 - EFEKTYWNE ROZWIĄZANIA DLA WASZEGO BIZNESU_______ */
+
+
+.main-title {
+padding: 118px 0;
+max-width: 1600px;
+margin: 0 auto;
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+background-color: #c4c4c4;
+text-align: center;
+background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+url(/images/responsive-images/Header-mobile.jpg);
+
+@media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+url(/images/responsive-images/Header-mobile@2x.jpg);
+}
+
+ @media screen and (min-width: 768px) {
+      background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+        url(/images/responsive-images/Header-tablet.jpg);
+      @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+        background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+          url(/images/responsive-images/Header-tablet@2x.jpg);
+      }
+    }
+
+    // ----------
+
+    @media screen and (min-width: 1200px) {
+      max-width: 1600px;
+      margin: 0 auto;
+      padding: 200px 0;
+      background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+        url(/images/backgroundheader.jpg);
+
+      @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+        background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+          url(/images/responsive-images/header-desktop@2x.jpg);
+      }
+
+    }
+&__h1 {
+font-size: 26px;
+color: white;
+padding-left: 57px;
+padding-right: 58px;
+font-weight: 900;
+letter-spacing: 0.06em;
+
+}
+
+&__button {
+  background-color: var(--interactive-elements-color);
+  color: white;
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+  text-decoration: none;
+  border-style: none;
+  height: 50px;
+  font-size: 16px;
+  cursor: pointer;
+  margin: 0 auto;
+  border-radius: 4px;
+  padding: 10px 41px;
+  margin-top: 0px;
+
+  &:hover {
+  color: var(--main-font-color);
+  background-color: #f5f4fa;
+}
+}
+}
+
+
+
+
+
+// .main-title {
+//   text-align: center;
+//   height: 600px;
+//   margin-top: 0px;
+//   border: 0.1px solid;
+//   padding: 0px;
+
+//   &__container {
+//   box-sizing: border-box;
+//   max-width: 1200px;
+//   margin: 0px auto;
+//   text-align: center;
+//   margin-bottom: 0px;
+// }
+
+// &__background {
+//   max-width: 1600px;
+//   background-image: linear-gradient(
+//       to top,
+//       rgb(47, 48, 58, 0.4),
+//       rgb(47, 48, 58, 0.4)
+//     ),
+//     url(../images/backgroundheader.jpg);
+//   margin-top: 0;
+// }
+
+// &__h1 {
+//   font-size: 44px;
+//   font-weight: 900;
+//   line-height: 60px;
+//   letter-spacing: 0.06em;
+//   margin: 0 auto;
+//   margin-top: 200px;
+//   margin-bottom: 30px;
+//   color: white;
+//   width: 696px;
+//   height: 120px;
+// }
+
+
+// }
+
+
+// }

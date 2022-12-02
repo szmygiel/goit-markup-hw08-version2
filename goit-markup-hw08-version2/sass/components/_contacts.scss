@@ -1,0 +1,44 @@
+/* ====== Contacts - TOP BAR */
+
+.contacts {
+  display: inline-block;
+  list-style: none;
+  margin: 0px;
+  box-sizing: border-box;
+  height: 80px;
+  padding: 0px;
+  margin-left: 130px;
+
+&__list {
+  display: flex;
+  list-style: none;
+  padding: 0px;
+  margin: 32px;
+  margin-left: 93px;
+}
+
+&__link {
+  color: var(--secondary-font-color);
+}
+
+&__element {
+  display: flex;
+  align-items: center;
+
+  &:hover {
+    --color: var(--interactive-elements-color);
+    --color4: var(--interactive-elements-color);
+    --color5: var(--interactive-elements-color);
+  }
+}
+
+&__link--mail {
+  margin-right: 50px;
+  margin-left: 10px;
+}
+
+&__link--tel {
+  margin-left: 10px;
+  margin-right: 0px;
+}
+}
