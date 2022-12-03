@@ -10,7 +10,7 @@ display: flex;
 list-style: none;
 padding: 0px;
 margin: 32px;
-gap: 3rem;
+justify-content: space-between;
 // margin-left: 93px;
 
 &::after {
@@ -29,7 +29,8 @@ width: 0;
 }
 
 &__link{
-margin:0;
+display: flex;
+
 
 }
 

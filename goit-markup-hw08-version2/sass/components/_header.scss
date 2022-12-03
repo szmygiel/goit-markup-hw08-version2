@@ -65,12 +65,16 @@
 
 /* ____________HEADER - top-bar/menu_____________ */
 
+ 
 .header {
 display: flex;
 background-color:var(--page-color);
 height: 80px;
 box-sizing: border-box;
 margin-bottom: 0px;
+max-width: 1200px;
+// align-items: center;
+// justify-content: space-between;
 
 &__container {
 display: flex; 
@@ -109,6 +113,12 @@ margin-right: 0px;
   margin-top: 24px;
   margin-bottom: 25px;
   margin-left: 2rem;
-  margin-right: 2rem;
+  margin-right: 4rem;
 }
 }
+
+  .header {
+    @media screen and (max-width: 767px) {
+    display: none;
+   }
+   }
