@@ -1,14 +1,17 @@
 .main-nav {
+display: flex;
 height: 80px;
 padding: 0px;
-margin-right: 115;
+// margin-right: 115;
 
-&__list{
+
+&__list {
 display: flex;
 list-style: none;
 padding: 0px;
 margin: 32px;
-margin-left: 93px;
+gap: 3rem;
+// margin-left: 93px;
 
 &::after {
 content: "";
@@ -24,6 +27,12 @@ width: 0;
 
 }
 }
+
+&__link{
+margin:0;
+
+}
+
 
 &__link--underline::after {
 content: "";
