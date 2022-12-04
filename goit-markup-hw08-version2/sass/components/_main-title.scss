@@ -11,19 +11,19 @@ background-size: cover;
 background-color: #c4c4c4;
 text-align: center;
 background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
-url(/images/responsive-images/Header-mobile.jpg);
+url(/images/responsive-images/header-mobile.jpg);
 
 @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
 background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
-url(/images/responsive-images/Header-mobile@2x.jpg);
+url(/images/responsive-images/header-mobile@2x.jpg);
 }
 
  @media screen and (min-width: 768px) {
       background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
-        url(/images/responsive-images/Header-tablet.jpg);
+        url(/images/responsive-images/header-tablet.jpg);
       @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
         background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
-          url(/images/responsive-images/Header-tablet@2x.jpg);
+          url(/images/responsive-images/header-tablet@2x.jpg);
       }
     }
 

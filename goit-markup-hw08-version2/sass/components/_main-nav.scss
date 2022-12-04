@@ -2,7 +2,11 @@
 display: flex;
 height: 80px;
 padding: 0px;
-// margin-right: 115;
+margin-right: 115px;
+@media screen and(min-width:768px) {
+margin-right: 0px;    
+}
+
 
 
 &__list {
@@ -28,12 +32,13 @@ width: 0;
 }
 }
 
-&__link{
+&__link {
 display: flex;
-
-
 }
 
+// &__link:last-child {
+//     margin-right: 0px;
+// }
 
 &__link--underline::after {
 content: "";
